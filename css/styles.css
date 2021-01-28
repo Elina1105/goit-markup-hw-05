@@ -803,7 +803,7 @@ footer {
   letter-spacing: 0.03em;
 
   background: rgba(33, 150, 243, 0.9);
-  color: ;
+  color: var(--primary-text-color);
   opacity: 0;
   transform: translateY(100%);
   transition-property: transform;
