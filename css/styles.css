@@ -764,11 +764,13 @@ footer {
   overflow: hidden;
 }
 
-.item-link:hover .class2 {
+.item-link:hover .class2,
+.item-link:focus .class2 {
   opacity: 1;
 }
 
-.item-link:hover .class2 {
+.item-link:hover .class2,
+.item-link:focus .class2 {
   transform: translateY(0);
 }
 .class2 {
