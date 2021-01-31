@@ -127,18 +127,16 @@ ul {
 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.site-nav .link:hover::after,
-.site-nav .link:focus::after {
+
+.link:hover::after,
+.link:focus::after {
   transform: scaleX(1);
   color: var(--accent-color);
 }
-.link.current::after {
+.link.current::after,
+.link:hover::after {
   transform: scaleX(1);
   transition: var(--transition);
-}
-link:hover::after {
-  transform: scaleX(1);
-  color: var(--accent-color);
 }
 
 /* Навігація по авторизації портфоліо */
